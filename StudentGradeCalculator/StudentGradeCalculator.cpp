@@ -22,6 +22,8 @@ int main()
     cout << "Grade 2: " << grade2 << endl;
     cout << "Grade 3: " << grade3 << endl;
     cout << "\nAverage: " << StudentGradeCalculator(grade1, grade2, grade3) <<"%" << endl;
+	cout << "-------------------------" << endl;
+	cout << "Student: " << studentName << endl;
 
     return 0;
 
