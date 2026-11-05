@@ -9,7 +9,6 @@ int StudentGradeCalculator(int grade1, int grade2, int grade3)
 	return average;
 }
 
-
 int main()
 {
     string studentName = "Ahmad";
@@ -22,6 +21,7 @@ int main()
     cout << "Grade 2: " << grade2 << endl;
     cout << "Grade 3: " << grade3 << endl;
     cout << "\nAverage: " << StudentGradeCalculator(grade1, grade2, grade3) <<"%" << endl;
+	cout << "-------------------------" << endl;
 
     return 0;
 
