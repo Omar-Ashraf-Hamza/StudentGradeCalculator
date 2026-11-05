@@ -22,7 +22,10 @@ int main()
     cout << "Grade 3: " << grade3 << endl;
     cout << "\nAverage: " << StudentGradeCalculator(grade1, grade2, grade3) <<"%" << endl;
 	cout << "-------------------------" << endl;
+    
 
+
+	cout << studentName << "! Your average grade is " << StudentGradeCalculator(grade1, grade2, grade3) << "%." << endl;
     return 0;
 
 }
